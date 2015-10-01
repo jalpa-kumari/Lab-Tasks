@@ -1,0 +1,10 @@
+public class Circle extends oval{
+
+	public double rad;
+public Circle(int rad) {
+		
+		
+		super("Circle");
+		x=y=rad;
+	}
+}

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main (String[] args){
+		
+		
+		public int i;
+		
+Shape[] shapeList =  new Shape[5];
+shapeList[0] =  new Circle[3];
+shapeList [1]=  new Rectangle[3,4];
+shapeList [2]=  new Rectangle[5,6];
+shapeList [3]=  new oval[2,6];
+shapeList [4]=  new Square[5];
+for(i=0;i<shapeList.length;i++){
+	System.out.print(shapeList[i].tostring());
+	System.out.print(shapeList[i].area()+" ");
+	System.out.print(shapeList[i].perimeter()+ " ");
+	System.out.println(shapeList[i].color());
+}
+}
+}

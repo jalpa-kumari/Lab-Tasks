@@ -1,0 +1,35 @@
+public class Rectangle extends Shape {
+	public int len;
+	public int wid;
+	public String col;
+	
+	
+	public Rectangle (int len, int wid){
+	
+		
+		super(" Rectangle");
+		
+	}
+	public Rectangle (String ShapeName)
+	{
+
+		super(ShapeName);
+			
+	}
+	public double area() {
+		return len* wid;
+		
+	}
+	public double perimeter()
+	{
+		return 2*(len + wid);
+	
+	}
+	
+	public String color()
+	
+	{
+	return col;	
+	
+	}
+}

@@ -1,0 +1,15 @@
+public class calcclass {
+	
+	public int costperround(int cpr){
+		return cpr*5;
+	}
+	public int weightcost(int weight){
+		return weight*2;
+	}
+	public int shippingcost(int weight,int cpr){
+		int w=weightcost(weight);
+		int c=costperround(cpr);
+		int total=w+c;
+		return total;
+	}
+}

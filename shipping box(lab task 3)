@@ -1,0 +1,13 @@
+
+public class ShippingBox {
+	public static void main(String[] Args){
+	int weight=2;
+	int rounds=2;
+	calcclass object1 = new calcclass();
+			System.out.println("Cost Per Round ="  object1.costperround(rounds));
+			System.out.println("Weight Cost =" object1.weightcost(weight));
+			System.out.println("Shipping cost ="  object1.shippingcost(weight, rounds));
+			
+	}
+
+}

@@ -1,0 +1,11 @@
+public class calculated {
+	public static void main(String[] args){
+	cal object=new cal();
+	
+		System.out.println(object.add(4,6));
+		System.out.println(object.multiply(2,4));
+		System.out.println(object.subtract(2,4));
+		System.out.println(object.devide(8,4));
+			
+}
+}

@@ -1,0 +1,36 @@
+public class nodelist {
+	public list abc;
+	
+public void add(int value){
+	list temp;
+	temp=abc;
+    if(abc==null){
+    abc=new list();
+	abc.value=value;
+		
+}
+else{
+   temp=abc;
+  
+	abc=new list();
+	abc.value=value;
+	temp.add=abc;
+	abc=temp;
+}
+}
+public void showallnodes(){
+	list temp=abc;
+
+	while(abc.add !=null){
+		System.out.println(temp.value);
+		temp=temp.add;
+	}
+	int i=7;
+	while(abc.add !=null){
+	if(temp.value==i){
+		System.out.println("searched");
+		temp=temp.add;
+	}
+}
+}
+}

@@ -1,0 +1,9 @@
+
+public class test {
+public static void main(String [] args){
+	nodelist obj2=new nodelist();
+		obj2.add(2);
+		obj2.add(7);
+		obj2.showallnodes();
+}
+}

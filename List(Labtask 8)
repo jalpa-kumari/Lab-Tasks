@@ -1,0 +1,8 @@
+
+public class list {
+   int value;
+   list add;
+
+
+
+}
